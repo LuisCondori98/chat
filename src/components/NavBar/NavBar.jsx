@@ -74,13 +74,13 @@ const NavBar = () => {
             </NavLink>
           </li>
           <li className="navbar-item">
-            <a 
-              href="#portafolio" 
+            <NavLink 
+              to="/chat" 
               className="navbar-link"
               onClick={handleLinkClick}
             >
-              Portafolio
-            </a>
+              CHAT
+            </NavLink>
           </li>
           <li className="navbar-item">
             <a 
