@@ -77,6 +77,7 @@ const Chat = () => {
  
   return (
     <main>
+      <h1>CHAT LUCHIN</h1>
       {
         !userValido ?
         <form onSubmit={handleChat}>
