@@ -102,6 +102,7 @@ const Chat = () => {
             type="text" 
             className="chat-input"
             placeholder="Escribe tu mensaje..."
+            value={text}
             onChange={handleInputChange} 
           />
           <input 
