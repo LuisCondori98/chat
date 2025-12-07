@@ -18,7 +18,7 @@ const Chat = () => {
 
       const datos = snapshot.docs.map(doc => ({id: doc.id, ...doc.data()}))
 
-      const mensajesOrdenados = datos.sort((a, b) => a.date - b.date)
+      const mensajesOrdenados = datos.sort((a, b) => b.date - a.date)
 
       setChatText(mensajesOrdenados)
     })
